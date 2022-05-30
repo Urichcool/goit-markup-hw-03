@@ -58,7 +58,6 @@ h1, h2, h3, h4, h5, h6, p{
 
 .page-header{
     background-color: var(--primary-bg-color);
-    border-bottom: 1px solid #ECECEC;
     
 }
 
@@ -219,18 +218,10 @@ padding-bottom: 95px;
 }
 
 .features-list{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
 }
 
-.features-list .item{
-    width: 270px;
-}
-
-.features-list .item + .item{
-    margin-left: 30px;
-}
-   
 
 .features-title{
     margin-bottom: 10px;
@@ -246,7 +237,7 @@ justify-content: space-between;
 }
 
 
-.features-text{ 
+.features-text{   
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -260,11 +251,8 @@ text-align: center;
 }
 
 .activites-list{
-    display: flex;   
-}
-
-.activites-list .item + .item{
-margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .activites-title{
@@ -284,20 +272,6 @@ margin-left: 30px;
 background-color:var(--secondary-white-color) ;
 padding-top: 95px;
 padding-bottom: 95px;
-text-align: center;
-}
-
-.crew-list{
-    display: flex;
-}
-
-.crew-list .item{
-    width: 270px;
-    background-color:var(--primary-bg-color) ;
-}
-
-.crew-list .item + .item{
-    margin-left: 30px;
 }
 
 .crew-title{
@@ -312,8 +286,6 @@ text-align: center;
 }
 
 .crew-name{
-margin-top: 30px;
-margin-bottom: 10px;
 color: var(--title-text-color);
 font-family: 'Roboto';
 font-style: normal;
@@ -324,7 +296,6 @@ letter-spacing: 0.03em;
 }
 
 .crew-text{
-margin-bottom: 30px;
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.03em;
@@ -401,26 +372,9 @@ display: block;
 
 /* Portfolio */
 
-.examples{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.examples-button-list{
-    display: flex;
-    justify-content: center;
-}
-
-.examples-button-list .item + .item{
-    margin-left: 10px;
-}
-
-
 .examples-button{
     color: var(--title-text-color);
     background-color:var(--secondary-white-color);
-    padding: 6px 22px;
-    border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
